@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from "./MyComponents/Header";
+import ScholarShip from "./MyComponents/ScholarShip";
+import ExamRegestration from "./MyComponents/ExamRegestration";
+import SportsRegestration from "./MyComponents/SportsRegestration";
+import PayBills from "./MyComponents/PayBills";
+import TakeInsurance from "./MyComponents/TakeInsurance";
+import BookTickets from "./MyComponents/BookTickets";
+import GetMoreHelp from "./MyComponents/GetMoreHelp";
+import LatestNews from "./MyComponents/LatestNews";
+import LogIn from "./MyComponents/LogIn";
+import SignIn from "./MyComponents/SignIn";
+import Side from "./MyComponents/Side";
+import Footer from "./MyComponents/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <ScholarShip />
+      {/* <ExamRegestration /> */}
+      {/* <SportsRegestration /> */}
+      {/* <PayBills /> */}
+      {/* <TakeInsurance /> */}
+      {/* <BookTickets/> */}
+      {/* <GetMoreHelp/> */}
+      {/* <LatestNews/> */}
+      {/* <LogIn/> */}
+      {/* <SignIn /> */}
+      {/* <Side/> */}
+      <Footer/>
     </div>
   );
 }
