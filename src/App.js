@@ -1,35 +1,48 @@
 import './App.css';
-import Header from "./MyComponents/Header";
-import ScholarShip from "./MyComponents/ScholarShip";
-import ExamRegestration from "./MyComponents/ExamRegestration";
-import SportsRegestration from "./MyComponents/SportsRegestration";
-import PayBills from "./MyComponents/PayBills";
-import TakeInsurance from "./MyComponents/TakeInsurance";
-import BookTickets from "./MyComponents/BookTickets";
-import GetMoreHelp from "./MyComponents/GetMoreHelp";
-import LatestNews from "./MyComponents/LatestNews";
-import LogIn from "./MyComponents/LogIn";
-import SignIn from "./MyComponents/SignIn";
-import Side from "./MyComponents/Side";
-import Footer from "./MyComponents/Footer";
+import Content from "./components/Content"
+import GetMoreHelp from "./components/GetMoreHelp";
+import Layout from './components/Layout';
+import LogIn from "./components/LogIn";
+import SignIn from "./components/SignIn";
+import { 
+  paybills, 
+  scholarships, 
+  examregestration, 
+  sportsregestration, 
+  booktickets, 
+  takeinsurance, 
+  latestnews 
+} from './Data.js/data';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  createRoutesFromElements,
+} from "react-router-dom";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route path='/' element={<Layout/>} >
+        <Route path="home" element={<Content/>}/>
+        <Route path="scholarship" element={<Content head="About ScholarShips" data={scholarships} />} />
+        <Route path="examregistration" element={<Content head="About Exams Registration" data={examregestration}/>} />
+        <Route path="sportsregistration" element={<Content head="About Sports Registration" data={sportsregestration}/>} />
+        <Route path="paybills" element={<Content head="Pay Bills" data={paybills}/>} />
+        <Route path="takeinsurance" element={<Content head="Take Insurance" data={takeinsurance}/>} />
+        <Route path="booktickets" element={<Content head="Book Tickets" data={booktickets}/>} />
+        <Route path="getmorehelp" element={< GetMoreHelp />} />
+        <Route path="latestnews" element={<Content head="Latest News" data={latestnews}/>} />
+        <Route path="login" element={< LogIn />} />
+        <Route path="signin" element={< SignIn />} />
+        </Route>
+    </Route>
+  )
+)
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <ScholarShip />
-      {/* <ExamRegestration /> */}
-      {/* <SportsRegestration /> */}
-      {/* <PayBills /> */}
-      {/* <TakeInsurance /> */}
-      {/* <BookTickets/> */}
-      {/* <GetMoreHelp/> */}
-      {/* <LatestNews/> */}
-      {/* <LogIn/> */}
-      {/* <SignIn /> */}
-      {/* <Side/> */}
-      <Footer/>
-    </div>
+      <RouterProvider router={router} />
   );
 }
 
