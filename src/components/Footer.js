@@ -37,17 +37,20 @@ const Container = styled.div`
     padding: 8px;
     color: pink;
     box-shadow: 2px 2px 2px 2px red;
+    margin-bottom:20px;
+    width:200px;
 }
 ul{
     display: flex;
     justify-content:center;
     flex-direction:column;
-    
 
 }
 li{
     text-decoration:none;
-    
+    display:flex;
+    justify-content:center;
+    margin-block:4px;
 }
 `
 
