@@ -1,4 +1,3 @@
-import './App.css';
 import Content from "./components/Content"
 import GetMoreHelp from "./components/GetMoreHelp";
 import Layout from './components/Layout';
