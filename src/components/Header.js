@@ -13,44 +13,44 @@ export default function Header() {
     return (
         <Wrapper className='active'>
             <div className="logo">
-                <sapn className='logo-text'>Aditya Sharma</sapn>
+                <sapn className='logo-text'>Daily Pickings</sapn>
             </div>
             <button onClick={handleClick} className='btn'>
                 <img className='img' src="logo.svg" alt="" />
             </button>
             <ul className={menu == true ? "active" : "deactive"}>
                 <li className="nav-item p-2 py-3">
-                    <Link  to="home">Home</Link>
+                    <Link to="home">Home</Link>
                 </li>
                 <li className="nav-item p-2 py-3">
-                    <Link  to="scholarship">Scholarship</Link>
+                    <Link to="scholarship">Scholarship</Link>
                 </li>
                 <li className="nav-item p-2 py-3">
-                    <Link  to="examregistration">Exam Regestration</Link>
+                    <Link to="examregistration">Exam Registration</Link>
                 </li>
                 <li className="nav-item p-2 py-3">
-                    <Link  to="sportsregistration">Sports Regestration</Link>
+                    <Link to="sportsregistration">Sports Registration</Link>
                 </li>
                 <li className="nav-item p-2 py-3">
-                    <Link  to="paybills">Pay Bills</Link>
-                </li> 
-                <li className="nav-item p-2 py-3">
-                    <Link  to="takeinsurance">Take Insurance</Link>
+                    <Link to="paybills">Pay Bills</Link>
                 </li>
                 <li className="nav-item p-2 py-3">
-                    <Link  to="booktickets">Book Tickets</Link>
+                    <Link to="takeinsurance">Take Insurance</Link>
                 </li>
                 <li className="nav-item p-2 py-3">
-                    <Link  to="getmorehelp">Get Help</Link>
+                    <Link to="booktickets">Book Tickets</Link>
                 </li>
                 <li className="nav-item p-2 py-3">
-                    <Link  to="latestnews">Latest News</Link>
+                    <Link to="getmorehelp">Get Help</Link>
                 </li>
                 <li className="nav-item p-2 py-3">
-                    <Link  to="login" role="button">Log In</Link>
+                    <Link to="latestnews">Latest News</Link>
                 </li>
                 <li className="nav-item p-2 py-3">
-                    <Link  to="signin">Sign In</Link>
+                    <Link to="login" role="button">Log In</Link>
+                </li>
+                <li className="nav-item p-2 py-3">
+                    <Link to="signin">Sign In</Link>
                 </li>
             </ul>
         </Wrapper>
