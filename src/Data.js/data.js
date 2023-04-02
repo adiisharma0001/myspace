@@ -56,11 +56,11 @@ export const sportsregestration = [
 export const paybills = [
     {
         title: "Electricity Bill",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eligendi tenetur fugit sunt quisquam dolorem pariatur repellat obcaecati reiciendis enim dolor quod, porro iusto tempore sequi. Delectus at quidem libero. Iusto mollitia voluptatum eos sunt, ullam commodi, laboriosam optio fugit voluptate totam impedit. Necessitatibus, asperiores. Tempore eligendi consectetur repudiandae mollitia quisquam? Eligendi sequi earum necessitatibus? Illo exercitationem est a veniam?"
+        details: "An electricity bill is a statement that shows the amount of money you owe your electricity provider for the amount of electricity you have used during a specific billing period, usually one month. The bill includes information such as your account number, the billing period, the amount of electricity you used during that period (measured in kilowatt-hours, or kWh), the rate you are being charged per kWh, and the total amount due.Electricity bills can vary depending on factors such as the time of day, the season, and the amount of electricity you use. Many electricity providers offer different rate plans, such as time-of-use rates, which charge different rates for electricity depending on the time of day, and fixed-rate plans, which charge a fixed rate for electricity regardless of the time of day."
     },
     {
         title: "House Bill",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eligendi tenetur fugit sunt quisquam dolorem pariatur repellat obcaecati reiciendis enim dolor quod, porro iusto tempore sequi. Delectus at quidem libero. Iusto mollitia voluptatum eos sunt, ullam commodi, laboriosam optio fugit voluptate totam impedit. Necessitatibus, asperiores. Tempore eligendi consectetur repudiandae mollitia quisquam? Eligendi sequi earum necessitatibus? Illo exercitationem est a veniam?"
+        details: "House maintenance bills refer to the expenses incurred in keeping a house in good condition. These bills may include the cost of repairs, maintenance, and other services necessary to keep a home functioning properly."
     },
     {
         title: "Water Bill",
