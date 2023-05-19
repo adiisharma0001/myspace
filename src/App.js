@@ -11,7 +11,7 @@ import {
   sportsregestration, 
   booktickets, 
   takeinsurance, 
-  latestnews 
+  latestnews
 } from './Data.js/data';
 import {
   createBrowserRouter,
