@@ -55,19 +55,19 @@ export const sportsregestration = [
 
 export const paybills = [
     {
-        title: "Electricity Bill",
+        title: "Electricity Bill Payment",
         details: "An electricity bill is a statement that shows the amount of money you owe your electricity provider for the amount of electricity you have used during a specific billing period, usually one month. The bill includes information such as your account number, the billing period, the amount of electricity you used during that period (measured in kilowatt-hours, or kWh), the rate you are being charged per kWh, and the total amount due.Electricity bills can vary depending on factors such as the time of day, the season, and the amount of electricity you use. Many electricity providers offer different rate plans, such as time-of-use rates, which charge different rates for electricity depending on the time of day, and fixed-rate plans, which charge a fixed rate for electricity regardless of the time of day."
     },
     {
-        title: "House Bill",
+        title: "House Bill Payment",
         details: "House maintenance bills refer to the expenses incurred in keeping a house in good condition. These bills may include the cost of repairs, maintenance, and other services necessary to keep a home functioning properly."
     },
     {
-        title: "Water Bill",
+        title: "Water Bill Payment",
         details: "A water bill is a bill that is issued by a water utility company for the usage of water supplied to a particular property. The water bill includes the charges for the water consumed, along with any applicable taxes and fees.The amount of the water bill typically depends on the amount of water used by the household or property during a given period, which is usually a month. The water usage is usually measured by a water meter installed at the property, which records the amount of water consumed.In addition to the charges for the water consumed, a water bill may also include other fees such as service fees, connection fees, and late payment fees. The specific charges and fees included in the water bill may vary depending on the water utility company and the local regulations."
     },
     {
-        title: "Phone Bill",
+        title: "Phone Bill Payment",
         details: "A phone bill is a document that itemizes the charges you incur for using your phone, typically a mobile phone. It lists all the details of your usage, such as the number of calls made, text messages sent, and data usage during a specified period, usually one month. The bill also includes the cost of the various services you used, such as voice calls, text messaging, data usage, and any additional services or features you may have subscribed to, such as international calling or call forwarding.The bill will also include any taxes, fees, and surcharges applied to your account, as well as any discounts or credits that may have been applied. The phone bill typically provides you with a summary of your charges, including the total amount due, the due date, and any late payment penalties or interest charges. It's important to review your phone bill carefully to ensure that you are being billed correctly and that you understand all the charges on your account."
 
     }
